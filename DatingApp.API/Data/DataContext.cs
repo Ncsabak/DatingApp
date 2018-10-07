@@ -1,4 +1,5 @@
-﻿using DatingAPP.API.Models;
+﻿using DatingApp.API.Models;
+using DatingAPP.API.Models;
 using JetBrains.Annotations;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -15,5 +16,6 @@ namespace DatingAPP.API.Data
         }
 
         public DbSet<Value> Values { get; set; }
+        public DbSet<User> Users {get;set;}
     }
 }
