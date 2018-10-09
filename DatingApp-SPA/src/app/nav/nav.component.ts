@@ -13,7 +13,7 @@ export class NavComponent implements OnInit {
   ngOnInit() {
   }
 
-  login(){
+  login() {
     console.log(this.model);
   }
 
