@@ -7,7 +7,6 @@ import { AuthService } from '../_services/auth.service';
   styleUrls: ['./register.component.css']
 })
 export class RegisterComponent implements OnInit {
-  @Input() valuesFromHome: any;
   @Output() cancelRegister = new EventEmitter();
   model: any = {};
 
@@ -18,7 +17,7 @@ export class RegisterComponent implements OnInit {
 
   register() {
     this.authService.register(this.model).subscribe(()=> {
-      console.log('Registration succesfull');
+      console.log('Registration succesful');
     }, error => {
       console.log(error);
     });
