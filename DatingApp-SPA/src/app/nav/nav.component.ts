@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { AuthService } from '../_services/auth.service';
 import { TouchSequence } from 'selenium-webdriver';
+import { AlertifyService } from '../_services/alertify.service';
 
 @Component({
   selector: 'app-nav',
@@ -10,7 +11,7 @@ import { TouchSequence } from 'selenium-webdriver';
 export class NavComponent implements OnInit {
   model: any = {};
 
-  constructor(private authService: AuthService) { }
+  constructor(private authService: AuthService, private alertify: AlertifyService) { }
 
   ngOnInit() {
   }
@@ -18,9 +19,9 @@ export class NavComponent implements OnInit {
   login() {
     // console.log(this.model);
     this.authService.login(this.model).subscribe(next => {
-      console.log('Successfully');
+      this.alertify.success('Successfully');
     }, error => {
-        console.log(error);
+        this.alertify.error(error);
     });
   }
   loggedIn() {
@@ -30,6 +31,6 @@ export class NavComponent implements OnInit {
 
   logout() {
     localStorage.removeItem('token');
-    console.log('logged out');
+    this.alertify.message('logged out');
   }
 }

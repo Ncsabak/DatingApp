@@ -3,7 +3,7 @@ import { HttpInterceptor, HttpRequest, HttpHandler, HttpEvent, HttpErrorResponse
 import { Injectable } from '@angular/core';
 import { Observable, throwError } from 'rxjs';
 import { catchError } from 'rxjs/operators';
-import { type } from 'os';
+import { SERVER_TRANSITION_PROVIDERS} from '@angular/platform-browser/src/browser/server-transition';
 
 @Injectable()
 export class ErrorInterceptor implements HttpInterceptor {
