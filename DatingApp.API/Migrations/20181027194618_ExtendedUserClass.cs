@@ -24,7 +24,7 @@ namespace DatingAPP.API.Migrations
                 defaultValue: new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified));
 
             migrationBuilder.AddColumn<DateTime>(
-                name: "DateOfBrith",
+                name: "DateOfBirth",
                 table: "Users",
                 nullable: false,
                 defaultValue: new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified));
@@ -35,12 +35,12 @@ namespace DatingAPP.API.Migrations
                 nullable: true);
 
             migrationBuilder.AddColumn<string>(
-                name: "Inroduction",
+                name: "Interests",
                 table: "Users",
                 nullable: true);
 
             migrationBuilder.AddColumn<string>(
-                name: "Interests",
+                name: "Introduction",
                 table: "Users",
                 nullable: true);
 
@@ -56,7 +56,7 @@ namespace DatingAPP.API.Migrations
                 defaultValue: new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified));
 
             migrationBuilder.AddColumn<string>(
-                name: "LokingFor",
+                name: "LookingFor",
                 table: "Users",
                 nullable: true);
 
@@ -107,7 +107,7 @@ namespace DatingAPP.API.Migrations
                 table: "Users");
 
             migrationBuilder.DropColumn(
-                name: "DateOfBrith",
+                name: "DateOfBirth",
                 table: "Users");
 
             migrationBuilder.DropColumn(
@@ -115,11 +115,11 @@ namespace DatingAPP.API.Migrations
                 table: "Users");
 
             migrationBuilder.DropColumn(
-                name: "Inroduction",
+                name: "Interests",
                 table: "Users");
 
             migrationBuilder.DropColumn(
-                name: "Interests",
+                name: "Introduction",
                 table: "Users");
 
             migrationBuilder.DropColumn(
@@ -131,7 +131,7 @@ namespace DatingAPP.API.Migrations
                 table: "Users");
 
             migrationBuilder.DropColumn(
-                name: "LokingFor",
+                name: "LookingFor",
                 table: "Users");
         }
     }
