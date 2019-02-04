@@ -87,6 +87,8 @@ namespace DatingAPP.API
             // seeder.SeedUsers();
             app.UseCors(a=> a.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
             app.UseAuthentication();
+            // app.UseDefaultFiles();
+            // app.UseStaticFiles();
             app.UseMvc();
         }
     }
