@@ -12,3 +12,17 @@ C:\LearnAngular\DatingApp\DatingApp.API\obj\Debug\netcoreapp2.1\DatingAPP.API.As
 C:\LearnAngular\DatingApp\DatingApp.API\obj\Debug\netcoreapp2.1\DatingAPP.API.RazorTargetAssemblyInfo.cache
 C:\LearnAngular\DatingApp\DatingApp.API\obj\Debug\netcoreapp2.1\DatingAPP.API.dll
 C:\LearnAngular\DatingApp\DatingApp.API\obj\Debug\netcoreapp2.1\DatingAPP.API.pdb
+C:\AngularProjects\DatingApp\datingapp.api\bin\Debug\netcoreapp2.1\DatingAPP.API.deps.json
+C:\AngularProjects\DatingApp\datingapp.api\bin\Debug\netcoreapp2.1\DatingAPP.API.runtimeconfig.json
+C:\AngularProjects\DatingApp\datingapp.api\bin\Debug\netcoreapp2.1\DatingAPP.API.runtimeconfig.dev.json
+C:\AngularProjects\DatingApp\datingapp.api\bin\Debug\netcoreapp2.1\DatingAPP.API.dll
+C:\AngularProjects\DatingApp\datingapp.api\bin\Debug\netcoreapp2.1\DatingAPP.API.pdb
+C:\AngularProjects\DatingApp\datingapp.api\obj\Debug\netcoreapp2.1\DatingAPP.API.csprojAssemblyReference.cache
+C:\AngularProjects\DatingApp\datingapp.api\obj\Debug\netcoreapp2.1\DatingAPP.API.csproj.CoreCompileInputs.cache
+C:\AngularProjects\DatingApp\datingapp.api\obj\Debug\netcoreapp2.1\DatingAPP.API.RazorAssemblyInfo.cache
+C:\AngularProjects\DatingApp\datingapp.api\obj\Debug\netcoreapp2.1\DatingAPP.API.RazorAssemblyInfo.cs
+C:\AngularProjects\DatingApp\datingapp.api\obj\Debug\netcoreapp2.1\DatingAPP.API.AssemblyInfoInputs.cache
+C:\AngularProjects\DatingApp\datingapp.api\obj\Debug\netcoreapp2.1\DatingAPP.API.AssemblyInfo.cs
+C:\AngularProjects\DatingApp\datingapp.api\obj\Debug\netcoreapp2.1\DatingAPP.API.RazorTargetAssemblyInfo.cache
+C:\AngularProjects\DatingApp\datingapp.api\obj\Debug\netcoreapp2.1\DatingAPP.API.dll
+C:\AngularProjects\DatingApp\datingapp.api\obj\Debug\netcoreapp2.1\DatingAPP.API.pdb
